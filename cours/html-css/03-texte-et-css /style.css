@@ -19,9 +19,15 @@ em {
     color: darkorange;
 }
 
+#race-vedette {
+    color: purple;
+
+}
+
 .recommandee {
     font-weight: bold;
     color: seagreen;
+
 }
 
 .deconseillee {
@@ -38,4 +44,8 @@ em {
     border-radius: 16px;
     background-color: lightgray;
     width: 300px;
+}
+
+.recommandee.deconseillee {
+    size: 1px;
 }
