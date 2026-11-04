@@ -15,7 +15,27 @@ li {
     margin-bottom: 4px;
 }
 
+em {
+    color: darkorange;
+}
+
 .recommandee {
     font-weight: bold;
     color: seagreen;
+}
+
+.deconseillee {
+    font-weight: bold;
+    color: crimson;
+}
+
+.change-survole:hover {
+    color: darkviolet;
+    cursor: pointer;
+}
+
+.radius {
+    border-radius: 16px;
+    background-color: lightgray;
+    width: 300px;
 }
